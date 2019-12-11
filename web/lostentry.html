@@ -1,0 +1,31 @@
+<!-- create details -->
+<!-- author :: Yahiya Mansuri
+     date ::24/april/19
+     time :: 11:11 AM -->
+<html>
+    <head>
+        <title>LostEntry</title>
+        <style>
+            body{background-color:MintCream;}
+            *{font-family:Arial Rounded MT Bold;font-weight:bolder;}
+            #box{height:30px;width:300px;background-color:transparent;cursor:pointer;}
+        </style>
+    </head>
+    <body>
+    <center>
+        <form action="lostperson" method="post" enctype="multipart/form-data">
+            <div class="container">
+                <h1>.......Lost-Entry........</h1>
+                Enter Person Name::<input type="text" name="pname" required id="box" /><br><br>
+                Enter Father Name::<input type="text" name="fname" required id="box" /><br><br>
+                Enter Mother Name::<input type="text" name="mname" required id="box" /><br><br>
+                Enter Contact Details::<input type="text" name="contact" required id="box" /><br><br>
+                Remark(Enter personal detials like height,birth mark etc..)<br><br>
+                &nbsp &nbsp&nbsp<textarea name="remark" rows="10" cols="50" placeholder="Enter personal details..."></textarea><br><br>
+                Enter Person's Photo::<input type="file" name="image"/><br><br>
+                <input type="submit" value="lost.." id="box"/>
+            </div>
+        </form>
+    </center>  
+    </body>
+</html>
